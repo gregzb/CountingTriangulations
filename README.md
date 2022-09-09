@@ -1,5 +1,9 @@
 # CountingTriangulations
 
+### Warning
+- Unfortunately, it currently fails whenever a point in polygon check is done because it uses a horizontal line test, and this fails when the line intersects a vertex
+- This could be fixed by using winding number instead
+
 ## Install Prerequisites
 - gcc that supports C++17
 - CMake (3.22 or higher)
