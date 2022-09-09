@@ -5,6 +5,7 @@
 - This could be fixed by using winding number instead
 
 ## Install Prerequisites
+- Only tested on Linux, should work in wslG though
 - gcc that supports C++17
 - CMake (3.22 or higher)
 - make
